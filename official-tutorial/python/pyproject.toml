@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-learn-protobuf"
+version = "1.0.0"
+description = "Following through the official tutorial for Python"
+authors = ["ewh0"]
+license = "MIT"
+packages = [{ include = "add_person.py" }, { include = "tutorialpb" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+protobuf = "^5.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+add_address = "add_person:main"
