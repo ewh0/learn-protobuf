@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	pb "github.com/ewh0/learn-protobuf/official-tutorial/go/tutorialpb"
+	pb "github.com/ewh0/learn-protobuf-grpc/official-tutorial/go/tutorialpb"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

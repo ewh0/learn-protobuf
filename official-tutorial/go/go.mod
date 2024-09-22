@@ -1,4 +1,4 @@
-module github.com/ewh0/learn-protobuf/official-tutorial/go
+module github.com/ewh0/learn-protobuf-grpc/official-tutorial/go
 
 go 1.22.5
 
